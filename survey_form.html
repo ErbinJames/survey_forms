@@ -5,15 +5,15 @@
     <body>
         <h1>Survey Form</h1>
         <form>
-            <div class="personal-details">
+            <section>
                 <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname">
                 
                 <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email">
-            </div>
+            </section>
            
-            <div class="evaluation">
+            <section>
                 <p>How satisfied are you with our service?</p>
                 <label>
                     <input type="radio" name="option" value="verysatisfied">Very Satisfied
@@ -30,9 +30,9 @@
                 <label>
                     <input type="radio" name="option" value="verydissatisfied">Very Dissatisfied
                 </label>
-            </div>
+            </section>
 
-            <div class="features">
+            <section>
                 <p>What features do you value most?</p>
                 <label>
                     <input type="checkbox" name="choices" value="easeofuse">Ease of Use
@@ -43,9 +43,9 @@
                 <label>
                     <input type="checkbox" name="choices" value="customersupport">Customer Support
                 </label>
-            </div>
+            </section>
             
-            <div class="position">
+            <section>
                 <p>What best describes you?</p>
                 <select id="option" name="option">
                     <option value="student">Student</option>
@@ -53,12 +53,12 @@
                     <option value="hobbyist">Hobbyist</option>
                     <option value="other">Other</option>
                 </select>
-            </div>
+            </section>
 
-            <div class="feedback-area">
+            <section>
                 <p>Additional Feedback</p>
                 <textarea id="message" name="message"></textarea>
-            </div>
+            </section>
 
             <input type="submit" value="Submit">
         </form>    
